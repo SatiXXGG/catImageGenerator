@@ -26,7 +26,7 @@ function App() {
       setFact(response.fact)
     })
   }
-
+  
 
   return (
     <>
@@ -61,7 +61,7 @@ function App() {
 
         </div>
       </header>
-
+        
       <div className='from-pink-500 to-cyan-500 bg-gradient-to-r w-96 rounded-2xl mx-auto'>
         <img src={currentImage} id='currentImage' className='m-auto rounded-2xl w-96 p-1'></img>
       </div>
